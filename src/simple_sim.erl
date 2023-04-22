@@ -11,7 +11,7 @@
 -export([start_sim/1]).
 
 
--define(SID, <<"Sid_!">>).
+-define(SID, <<"Sid_1">>).
 
 -record(sim_state, {
     a = 0 :: number(),
